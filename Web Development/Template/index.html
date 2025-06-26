@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> My Page</title>
+</head>
+<body>
+{% for p_name, p_city in p_list %}
+    <p>{{p_name}}</p>
+    <p>{{p_city}}</p>
+{% endfor %}
+</body>
+</html>
